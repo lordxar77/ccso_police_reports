@@ -1,8 +1,8 @@
--import scraperwiki    
--import re
--import mechanize
--import datetime
--from BeautifulSoup import BeautifulSoup
+import scraperwiki    
+import re
+import mechanize
+import datetime
+from BeautifulSoup import BeautifulSoup
 
 # by default, scrape incidents from today and yesterday
 # (today will be incomplete until tomorrow)
