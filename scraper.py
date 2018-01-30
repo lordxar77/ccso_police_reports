@@ -1,15 +1,15 @@
-import scraperwiki    
-import re
-import mechanize
-import datetime
-from BeautifulSoup import BeautifulSoup
+-import scraperwiki    
+-import re
+-import mechanize
+-import datetime
+-from BeautifulSoup import BeautifulSoup
 
 # by default, scrape incidents from today and yesterday
 # (today will be incomplete until tomorrow)
 START_DAYS_AGO = 0
 NUM_DAYS = 6
 
-starting_page = 'http://p2c.chpd.us/Summary_Disclaimer.aspx'
+starting_page = 'http://p2c.claysheriff.com/dailybulletin.aspx'
 page_count_id = 'mainContent_lblPageCount'
 date_from_id = 'MasterPage$mainContent$txtDateFrom2'
 date_to_id = 'MasterPage$mainContent$txtDateTo2'
